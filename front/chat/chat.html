@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat-Page</title>
+    <link rel="stylesheet" href="../common.css">
+    <link rel="stylesheet" href="./chat.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+</head>
+<body>
+    <div class="main">  
+        <header class="gapy">
+            <i class="xi-arrow-left" id="back"></i>
+            <div class="Qlist" id="list">다른 질문 선택하기</div>
+        </header>      
+        <div class="container"> 
+            <div id="chatting" class="chatting">
+                <div class="chatbot">
+                    <div class="profile">
+                        <div class="imgdiv">
+                            <img src="../images/boy.png" alt="roni" class="imgpro">
+                        </div>
+                    </div>
+                    <div class="chatbox">
+                        <div class="name">토니</div>
+                        <div class="contentC">먼저 의견을 제시 해주세요!</div>
+                    </div>
+                </div>
+                <!-- 이부분은 나중에 js로 알아서 생성되게 바꾸기
+                <div class="chatbot">
+                    <div class="profile">
+                        <div class="imgdiv">
+                            <img src="../images/boy.png" alt="roni" class="imgpro">
+                        </div>
+                    </div>
+                    <div class="chatbox">
+                        <div class="name">토니</div>
+                        <div class="contentC">깻잎을 왜 떼줘? 난 이해가 안감</div>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="contentU">한국인이라면 깻잎 잡아주는게 기본 아니야?</div>
+                </div>
+
+                <div class="chatbot">
+                    <div class="profile">
+                        <div class="imgdiv">
+                            <img src="../images/boy.png" alt="roni" class="imgpro">
+                        </div>
+                    </div>
+                    <div class="chatbox">
+                        <div class="name">토니</div>
+                        <div class="contentC">사람이라면 혼자 깻잎은 뗄 수 있어ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ</div>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="contentU">아니 한 손으로 젓가락질 하는데 불편해보이면 도와주는게 맞지</div>
+                </div>
+
+                <div class="chatbot">
+                    <div class="profile">
+                        <div class="imgdiv">
+                            <img src="../images/boy.png" alt="roni" class="imgpro">
+                        </div>
+                    </div>
+                    <div class="chatbox">
+                        <div class="name">토니</div>
+                        <div class="contentC">사람이라면 혼자 깻잎은 뗄 수 있어. 사람이라면 혼자 깻잎은 뗄 수 있어. 사람이라면 혼자 깻잎은 뗄 수 있어. 사람이라면 혼자 깻잎은 뗄 수 있어. </div>
+                    </div>
+                </div>
+                <div class="user">
+                    <div class="contentU">아니 한 손으로 젓가락질 하는데 불편해보이면 도와주는게 맞지</div>
+                </div>
+            </div> -->
+        </div>
+        <footer>
+            <div class="footer">
+                <textarea name="text" id="input" class="inputbox"></textarea>
+                <!-- <input type="text" class="inputbox" id="input"> -->
+                <div class="xi-send" id="send"></div>
+            </div>
+        </footer>
+    </div>
+    <script src="./chat.js"></script>
+</body>
+</html>  
